@@ -1,0 +1,287 @@
+!SESSION 2024-01-02 08:04:28.196 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/RemoteEnergeticLocation/.cache/jdt-language-server/data/home/runner/RemoteEnergeticLocation
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:45.966
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.164
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.669
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.682
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.858
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.858
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.893
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.957
+!MESSAGE Wait for AutoBuildOffJob end 64ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.958
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.966
+!MESSAGE Started org.eclipse.m2e.core 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.969
+!MESSAGE ProjectRegistryRefreshJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:48.970
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:49.179
+!MESSAGE Started org.eclipse.buildship.core 208ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:53.870
+!MESSAGE LoadingGradleVersionJob finished 4607ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:54.059
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:54.159
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:54.761
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:59.158
+!MESSAGE Workspace initialized in 5272ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:59.267
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:04:59.369
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:01.267
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:01.271
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:01.357
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:02.773
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:05.575
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.089
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.180
+!MESSAGE The value of the local variable Left is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.180
+!MESSAGE The value of the local variable Right is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.181
+!MESSAGE The value of the local variable HighestPalindrome is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.181
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.268
+!MESSAGE Validated 1. Took 3010 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.284
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.363
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.762
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.762
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.765
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.766
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.979
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:06.980
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.061
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.066
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.266
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.273
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.362
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.364
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.959
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:07.963
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.786
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.787
+!MESSAGE The value of the local variable Left is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.787
+!MESSAGE The value of the local variable Right is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.788
+!MESSAGE The value of the local variable HighestPalindrome is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.790
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:05:08.857
+!MESSAGE Validated 1. Took 492 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:37:55.022
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:37:56.053
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:38:09.407
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:43:26.950
+!MESSAGE >> document/hover
+!SESSION 2024-01-02 08:44:51.889 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/RemoteEnergeticLocation/.cache/jdt-language-server/data/home/runner/RemoteEnergeticLocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-01-02 08:44:58.260
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:00.469
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:01.563
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:01.974
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.062
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.075
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.076
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.177
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.178
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.257
+!MESSAGE ProjectRegistryRefreshJob finished 78ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.258
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.478
+!MESSAGE Started org.eclipse.buildship.core 220ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.668
+!MESSAGE LoadingGradleVersionJob finished 179ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:02.961
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:08.561
+!MESSAGE Workspace initialized in 5889ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:08.657
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:08.695
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.722
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.727
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.760
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.871
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.875
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:12.877
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:13.190
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:13.701
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.073
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.075
+!MESSAGE The value of the local variable Left is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.076
+!MESSAGE The value of the local variable Right is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.077
+!MESSAGE The value of the local variable HighestPalindrome is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.077
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.079
+!MESSAGE Validated 1. Took 357 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.168
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.178
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-01-02 08:45:14.179
+!MESSAGE >> watchers registered
